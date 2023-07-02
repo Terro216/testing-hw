@@ -87,9 +87,9 @@ BUG_ID = 1(у элементов в каталоге(getAllProducts) имена 
 BUG_ID = 2(/api/checkout возвращает id: Date.now() вместо настоящего, routes.ts): unit
 BUG_ID = 3(/api/products/:id(\\d+), всегда возвращает id=0, routes.ts): unit
 BUG_ID = 4(гамбургер не закрывается при нажатии на ссылку, application.tsx): e2e
-BUG_ID = 5(checkoutEpic, store.ts):
-BUG_ID = 6(shoppingCartEpic, store.ts):
-BUG_ID = 7(ADD_TO_CART не добавляет в cart, store.ts):
+BUG_ID = 5(checkoutEpic, store.ts): e2e3
+BUG_ID = 6(shoppingCartEpic, store.ts): e2e
+BUG_ID = 7(ADD_TO_CART не добавляет в cart, store.ts): unit
 BUG_ID = 8(alert-danger у успешного добавления карточки): e2e
 BUG_ID = 9(btn-sm у кнопки добавления в корзину на странице заказа, productDetails): unit
 BUG_ID = 10(телефон не валиден при заполнении формы, Form.tsx): unit

@@ -125,7 +125,6 @@ export const checkoutEpic: ExampleEpic = (action$, store$, { api }) =>
   action$.pipe(
     ofType('CHECKOUT'),
     mergeMap(({ form, cart }: ReturnType<typeof checkout>) => {
-      console.log('5 here')
       if (process.env.BUG_ID === '5') {
         return EMPTY
       }
